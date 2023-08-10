@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import { styles } from '../styles/styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
@@ -57,8 +56,8 @@ const Contact = () => {
         variants={slideIn('left', "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.heroHeadText}>Contact.</h3>
+        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Get in touch</p>
+        <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact.</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -112,7 +111,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={slideIn('right', "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[550px] xl:w-[550px] h-[350px]'
       >
         <EarthCanvas />
       </motion.div>

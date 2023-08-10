@@ -15,7 +15,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <title>Dan | Website Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg+xml" href="/logo.svg"></link>
+        <link rel="icon" type="image/svg+xml" href="./logo.svg"></link>
       </Head> 
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">

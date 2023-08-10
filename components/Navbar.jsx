@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { logo, menu, close } from '../public/assets'
 import Link from 'next/link';
 import { navLinks } from '../constants'
-import { styles } from '@/styles/styles';
+
 
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
     }, []);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"}`}>
+    <nav className={`sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"}`}>
         <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
             <Link href='/' className='flex items-center gap-2' onClick={() => { setActive(""); window.scrollTo(0, 0); }}>
                 <Image src={logo} alt='logo' className='w-9 h-9 object-contain' />

@@ -1,7 +1,6 @@
 import React from 'react'
 import  Tilt  from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
-import { styles } from '../styles/styles';
 import { github } from '../public/assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
@@ -69,10 +68,10 @@ const Works = () => {
   return (
    <>
    <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>
+        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">
           My Works
         </p>
-        <h2 className={`${styles.sectionHeadText}`}>
+        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
           Projects.
         </h2>
       </motion.div>
