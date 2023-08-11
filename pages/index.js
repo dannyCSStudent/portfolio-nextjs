@@ -3,6 +3,7 @@ import React from 'react';
 import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import { Navbar, Hero, About, Experience, Tech, Works, Contacts, StarsCanvas} from '../components';
+import Image from 'next/image';
 
 
 
@@ -18,9 +19,16 @@ export default function Home() {
         <link rel="icon" type="image/svg+xml" href="./logo.svg"></link>
       </Head> 
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-cover bg-no-repeat bg-center" style={{
+          backgroundImage: `url(/assets/herobg.png)`,
+          height: '100vh',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+
+        }}>
           <Navbar />
           <Hero />
+          
         </div>
         <About />
         <Experience />
