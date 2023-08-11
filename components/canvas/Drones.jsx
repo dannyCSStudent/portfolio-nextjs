@@ -1,11 +1,12 @@
 import { Suspense, useEffect, useState} from 'react'
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
+import { Canvas, useLoader } from '@react-three/fiber';
+import { OrbitControls, Preload } from '@react-three/drei';
 import CanvasLoader from '../Loader';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 
 const Drones = ( { isMobile } ) => {
-  const drone = useGLTF('./drone/scene.gltf');
+  const drone = useLoader( GLTFLoader, './drone/scene.gltf');
  
   return (
    <mesh>
@@ -56,6 +57,7 @@ const DronesCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

@@ -60,7 +60,7 @@ import {
         title: "React.js Developer",
         company_name: "Tech Company",
         icon: web,
-        iconBg: "red",
+        iconBg: "#0D5BE1",
         date: "March 2020 - April 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
@@ -73,7 +73,7 @@ import {
         title: "React.js Developer",
         company_name: "Tech Company",
         icon: web,
-        iconBg: "red",
+        iconBg: "#F2A41E",
         date: "March 2020 - April 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
@@ -86,7 +86,7 @@ import {
         title: "React.js Developer",
         company_name: "Tech Company",
         icon: web,
-        iconBg: "red",
+        iconBg: "#6E6E6E",
         date: "March 2020 - April 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
@@ -99,7 +99,7 @@ import {
         title: "React.js Developer",
         company_name: "Tech Company",
         icon: web,
-        iconBg: "red",
+        iconBg: "#5BE10D",
         date: "March 2020 - April 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
