@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const isProduction = process.env.NODE_ENV === 'production';
-console.log(isProduction)
+console.log("MyUrl " + isProduction)
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -25,7 +25,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": isProduction ? "url('/portfolio-nextjs/public/assets/herobg.png')" : "url('../public/assets/herobg.png')",
+        "hero-pattern": isProduction ? "url('/dannycsstudent.github.io/portfolio-nextjs/public/assets/herobg.png')" : "url('../public/assets/herobg.png')",
       },
     },
   },
