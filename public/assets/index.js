@@ -21,6 +21,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import youTube from "./tech/youTube.png"
+import threads from "./tech/threads-clone.png"
 
 
 export {
@@ -44,5 +45,6 @@ export {
     tailwind,
     typescript,
     threejs,
-    youTube
+    youTube, 
+    threads
 }
