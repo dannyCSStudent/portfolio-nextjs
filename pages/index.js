@@ -21,7 +21,7 @@ export default function Home() {
       </Head> 
       <div className="relative z-0 bg-primary">
         <div className="bg-cover bg-no-repeat bg-center" style={{
-          backgroundImage: `url('/herobg.png')`,
+          backgroundImage: `url('/herobg.jpg')`,
           height: '100vh',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',

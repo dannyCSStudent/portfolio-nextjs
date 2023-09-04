@@ -16,7 +16,9 @@ import {
     typescript,
     threejs,
     youTube,
-    threads
+    threads,
+    nextjs,
+    sanity
     } from '../public/assets'
   
     
@@ -39,20 +41,20 @@ import {
   
     const services = [
       {
-        title: "Programming Languages",
-        icon: web,
-      },
-      {
-        title: "Frameworks",
+        title: "React.js",
         icon: reactjs,
       },
       {
-        title: "Database Technologies",
-        icon: backend,
+        title: "Tailwindcss",
+        icon: tailwind,
       },
       {
-        title: "Computer Engineering",
-        icon: creator,
+        title: "Next.js",
+        icon: nextjs,
+      },
+      {
+        title: "Sanity",
+        icon: sanity,
       },
     ]
   
@@ -64,10 +66,10 @@ import {
         iconBg: "#6E6E6E",
         date: "November 2012 - July 2015",
         points: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore", 
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+          "Graduated Summa cum Laude with an Associate Degree in Computer Maintenance and Repair from Texas Western College. My dedication to academic excellence reflects my commitment to mastering computer maintenance and repair skills.", 
+          "Completed a comprehensive curriculum covering computer maintenance and repair, equipping me with a strong foundation in hardware and software troubleshooting, system diagnostics, and hardware component replacement.", 
+          "Gained practical, hands-on experience during my coursework, which included disassembling and reassembling computer systems, diagnosing hardware and software issues, and implementing effective repair solutions.", 
+          "Demonstrated a passion for continuous learning and skill improvement, evident in my pursuit of specialized coursework in computer maintenance and repair. This educational background positions me as a knowledgeable and skilled professional in the field."
         ] 
       },
       {
